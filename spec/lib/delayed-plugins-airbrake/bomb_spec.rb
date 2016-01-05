@@ -1,6 +1,6 @@
 require 'delayed-plugins-airbrake'
 
-module Delayed::Plugins::Airbrake
+module Delayed::Plugins::AirbrakeNotifier
   describe Bomb do
     describe '.blow_up' do
       it 'raises a test exception' do

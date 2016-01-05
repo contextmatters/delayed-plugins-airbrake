@@ -5,7 +5,7 @@ require 'delayed-plugins-airbrake/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "delayed-plugins-airbrake"
-  gem.version       = Delayed::Plugins::Airbrake::VERSION
+  gem.version       = Delayed::Plugins::AirbrakeNotifier::VERSION
   gem.authors       = ['Benjamin Oakes', 'Romain Champourlier', 'Grant Hollingworth', 'Nathan Broadbent']
   gem.email         = ['hello@benjaminoakes.com']
   gem.description   = %q(delayed_job exception notification with airbrake)

@@ -4,7 +4,7 @@ require 'delayed/plugin'
 
 require 'delayed-plugins-airbrake/version'
 
-module Delayed::Plugins::Airbrake
+module Delayed::Plugins::AirbrakeNotifier
   class Plugin < ::Delayed::Plugin
     module Notify
       def error(job, exception)
@@ -33,7 +33,7 @@ module Delayed::Plugins::Airbrake
   # This can be used to test that the plugin is working
   class Bomb
     def self.blow_up
-      raise 'Test from Delayed::Plugins::Airbrake::Bomb'
+      raise 'Test from Delayed::Plugins::AirbrakeNotifier::Bomb'
     end
   end
 end

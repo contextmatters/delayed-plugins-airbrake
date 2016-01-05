@@ -1,6 +1,6 @@
 module Delayed
   module Plugins
-    module Airbrake
+    module AirbrakeNotifier
       VERSION = '1.1.0'
     end
   end
